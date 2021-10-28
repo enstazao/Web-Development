@@ -1,0 +1,21 @@
+db.posts.insertMany([
+    {
+        title: 'Post Two',
+        Body: 'body of post two',
+        category: 'Technology',
+        date: Date()
+    },
+    {
+        title: 'Post Three',
+        Body: 'body of post Three',
+        category: 'News',
+        date: Date()
+    },
+    {
+        title: 'Post Four',
+        Body: 'body of post Four',
+        category: 'Entertainment',
+        date: Date()
+    },
+
+])
